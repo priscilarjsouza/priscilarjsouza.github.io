@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -11,10 +11,11 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #f4f4f9;
     }
 
     header {
-      background-color: #f531f8;
+      background-color: #6c63ff;
       color: #fff;
       padding: 20px;
       text-align: center;
@@ -27,6 +28,8 @@
 
     main {
       padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     section {
@@ -34,29 +37,51 @@
     }
 
     h3 {
-      margin: 0;
+      margin: 0 0 10px;
+      color: #333;
     }
 
     p {
-      margin-top: 5px;
+      margin: 5px 0 15px;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
     }
 
     .photo {
       text-align: center;
+      margin-bottom: 20px;
     }
 
     .photo img {
-      width: 200px;
+      width: 150px;
       border-radius: 50%;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-links a {
+      display: inline-block;
+      margin: 5px 10px 5px 0;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #6c63ff;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-links a:hover {
+      background-color: #5a54e6;
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Meu Portfólio</h1>
-    <h2>Desenvolvedora Web</h2>
+    <h1>Priscila Rosa de Jesus Souza</h1>
+    <h2>Desenvolvedora Web e Mobile</h2>
   </header>
 
   <main>
@@ -65,27 +90,17 @@
       <div class="photo">
         <img src="./imagens/minhaFoto.jpg" alt="Minha Foto">
       </div>
-      <p>Olá, meu nome é Priscila, sou estudante do curso de desenvolvimento web na Trybe. Tenho 29 anos e sou natural
-        de Londrina-PR, uma cidade que adoro e que me proporciona inspiração diária.</p>
-      <p>Em busca de novos desafios e oportunidades, decidi ingressar na área de Desenvolvimento Web e, para isso,
-        iniciei meu curso na Trybe em julho de 2022. Desde então, tenho me dedicado intensamente ao aprendizado e
-        aprimoramento das habilidades técnicas necessárias para me tornar uma desenvolvedora full stack.</p>
-      <p>Estou apaixonada por criar soluções web inovadoras e funcionais, e sinto uma satisfação imensa em trabalhar em
-        equipe, colaborar em projetos desafiadores e ver o resultado final ganhando vida. Meu objetivo é continuar
-        evoluindo e explorando novas tecnologias, sempre buscando a excelência em cada projeto em que me envolvo.</p>
-      <p>Além da programação, também sou uma pessoa apaixonada por séries, música e viagens.</p>
+      <p>Olá, meu nome é Priscila, mas pode me chamar de Pri. Tenho 30 anos e sou natural de Londrina-PR. Me formei como desenvolvedora full stack pela Trybe no final de 2023. Desde junho de 2023, estou cursando Análise e Desenvolvimento de Sistemas, e atualmente estou no terceiro semestre. Estou sempre em busca de novas oportunidades para aprender e crescer na área de tecnologia.</p>
+      <p>Além da programação, sou apaixonada por séries, música e viagens.</p>
     </section>
 
     <section id="skills">
       <h3>Habilidades</h3>
-      <p>Tenho desenvolvido habilidades em diversas áreas do desenvolvimento web, incluindo:</p>
+      <p>Tenho desenvolvido habilidades em diversas áreas do desenvolvimento web e mobile, incluindo:</p>
       <ul>
-        <li>Github</li>
-        <li>JavaScript básico</li>
+        <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>Testes Unitários</li>
-        <li>JavaScript ES6</li>
         <li>React</li>
         <li>Redux</li>
         <li>Context API</li>
@@ -94,30 +109,23 @@
         <li>Node.js</li>
         <li>Arquitetura de Software</li>
         <li>TypeScript</li>
+        <li>OutSystems</li>
       </ul>
-      <p>Essas habilidades me permitem desenvolver aplicações web completas, desde o front-end até o back-end. Tenho
-        experiência em construir interfaces responsivas e atraentes utilizando HTML, CSS e JavaScript. Além disso,
-        possuo conhecimento em bibliotecas e frameworks populares, como React e Redux, para criar aplicações dinâmicas e
-        interativas.</p>
-      <p>Estou familiarizado com práticas de versionamento de código utilizando o Github, bem como a realização de
-        testes unitários para garantir a qualidade do código. Tenho conhecimento em bancos de dados SQL e experiência em
-        trabalhar com Node.js para construir servidores e APIs.</p>
-      <p>Além disso, busco sempre aprimorar minhas habilidades e acompanhar as tendências do setor, como o uso da
-        arquitetura de software adequada e o emprego do TypeScript para um desenvolvimento mais seguro e escalável.</p>
+      <p>Essas habilidades me permitem desenvolver aplicações completas, desde o front-end até o back-end, e criar interfaces responsivas e atraentes. Estou sempre buscando aprimorar minhas habilidades e acompanhar as tendências do setor.</p>
     </section>
 
     <section id="projects">
       <h3>Projetos</h3>
-      <p>Atualizando projetos para subir pro portifólio</p>
+      <p>Em breve, adicionarei mais projetos ao meu portfólio. Fique de olho!</p>
     </section>
 
     <section id="contact">
       <h3>Contato</h3>
-      <p>
+      <div class="contact-links">
         <a href="https://www.linkedin.com/in/priscila-r-j-souza/" target="_blank">LinkedIn</a>
         <a href="https://github.com/priscilarjsouza" target="_blank">GitHub</a>
         <a href="https://www.instagram.com/priscilarjsouza/" target="_blank">Instagram</a>
-      </p>
+      </div>
     </section>
   </main>
 </body>
