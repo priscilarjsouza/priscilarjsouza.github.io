@@ -6,7 +6,7 @@ Este é o meu portfólio de desenvolvimento web, onde compartilho informações 
 
 ## Sobre Mim
 
-Pode me chamar de Pri, tenho 29 anos e sou natural de Londrina-PR. Iniciei meu curso de Desenvolvimento Web na Trybe em julho de 2022 e desde então tenho me dedicado intensamente ao aprendizado e aprimoramento das habilidades técnicas necessárias para me tornar uma desenvolvedora full stack.
+Pode me chamar de Pri, tenho 30 anos e sou natural de Londrina-PR. Iniciei meu curso de Desenvolvimento Web na Trybe em julho de 2022 e desde então tenho me dedicado intensamente ao aprendizado e aprimoramento das habilidades técnicas necessárias para me tornar uma desenvolvedora full stack.
 
 ## Habilidades
 
